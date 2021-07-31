@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== BOXICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Ecommerce Website</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bg-grid">
+        <div>
+          <a href="#" class="nav__logo">H&H</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Featured</a>
+            </li>
+            <li class="nav__item"><a href="#new" class="nav__link">New</a></li>
+            <li class="nav__item">
+              <a href="#subscribed" class="nav__link">Subscribed</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__icons">
+          <i class="bx bx-cart nav__cart"></i>
+          <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__conatiner bg-grid">
+          <div class="home__data">
+            <h1 class="home__title">NEW <br /><span>ARRIVALS</span></h1>
+            <a href="#featured" class="button">GO SHOPPING</a>
+
+            <img src="assets/img/home.png" alt="home_lady" class="home__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== COLLECTION =====-->
+      <section class="collection section">
+        <div class="collection__conatiner bg-grid">
+          <div class="collection_box">
+            <img
+              src="assets/img/backpackMan.png"
+              alt="backpackMan"
+              class="collction__img"
+            />
+            <div class="collections__data">
+              <h2 class="collection__title">
+                <span class="collection__subtitle">Men</span><br />Backpack
+              </h2>
+              <a href="#" class="collection__view">View collection</a>
+            </div>
+          </div>
+          <div class="collection_box">
+            <div class="collections__data">
+              <h2 class="collection__title">
+                <span class="collection__subtitle">Women</span><br />Backpack
+              </h2>
+              <a href="#" class="collection__view">View collection</a>
+            </div>
+            <img
+              src="assets/img/backpackWoman.png"
+              alt="backpackWoman"
+              class="collction__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--===== FEATURED PRODUCTS =====-->
+      <section class="featured section" id="featured"></section>
+
+      <!--===== OFFER =====-->
+      <section class="offer section"></section>
+
+      <!--===== NEW ARRIVALS =====-->
+      <section class="featured section" id="new"></section>
+
+      <!--===== NEWSLETTER =====-->
+      <section class="newsletter section" id="suscribe"></section>
+
+      <!--===== SPONSORS =====-->
+      <section class="sponsors section"></section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section"></footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

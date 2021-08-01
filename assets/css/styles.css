@@ -164,10 +164,6 @@ img {
   }
 }
 
-.nav__icons {
-  left: 50%;
-}
-
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -184,6 +180,19 @@ img {
 .nav__logo {
   font-weight: var(--font-bold);
   object-fit: cover;
+}
+
+.nav__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__subicons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .nav__cart {
@@ -233,7 +242,7 @@ img {
 
 .home__img {
   position: relative;
-  right: 0;
+  left: 30%;
   bottom: 0;
   width: 260px;
 }
@@ -257,13 +266,15 @@ img {
 /*===== COLLECTION =====*/
 
 .collection__container {
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .collection__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
+  border-radius: var(--br-6);
   padding: 0 1.5rem;
   background-color: var(--gray-color);
   transition: 0.3s;

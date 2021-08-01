@@ -33,11 +33,6 @@
     <!--===== HEADER =====-->
     <header class="l-header">
       <nav class="nav bg-grid">
-        <div>
-          <a href="#" class="nav__logo">
-            <img src="assets/img/logo256.png" width="35" alt="M/F">
-          </a>
-        </div>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
@@ -54,9 +49,17 @@
         </div>
 
         <div class="nav__icons">
-          <i class="bx bx-cart nav__cart"></i>
-          <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
-        </div>
+          <div>
+            <a href="#" class="nav__logo">
+              <img src="assets/img/logo256.png" width="35" alt="M/F">
+            </a>
+          </div>
+        
+            <div class="nav__subicons">
+              <i class="bx bx-cart nav__cart"></i>
+              <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+            </div>
+          </div>
       </nav>
     </header>
 
@@ -76,7 +79,7 @@
       <!--===== COLLECTION =====-->
       <section class="collection section">
         <div class="collection__conatiner bg-grid">
-          <div class="collection_box">
+          <div class="collection__box">
             <img
               src="assets/img/backpackMan.png"
               alt="backpackMan"
@@ -89,7 +92,8 @@
               <a href="#" class="collection__view">View collection</a>
             </div>
           </div>
-          <div class="collection_box">
+          
+          <div class="collection__box">
             <div class="collections__data">
               <h2 class="collection__title">
                 <span class="collection__subtitle">Women</span><br />Backpack

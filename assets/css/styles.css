@@ -125,7 +125,7 @@ img {
 
 .bg-grid {
   max-width: 1024px;
-  display: grid;
+  display: grid !important;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
   width: calc(100% - 3rem);
@@ -428,6 +428,25 @@ img {
 }
 
 /*===== SPONSORS =====*/
+.sponsors__container {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  padding: 1.5rem;
+}
+
+.sponsors__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.sposnors__logo img {
+  widht: 80px;
+  filter: opacity(70%);
+}
+
+.sponsors__logo img:hover {
+  filter: none;
+}
 
 /*===== FOOTER =====*/
 

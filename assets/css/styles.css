@@ -403,6 +403,29 @@ img {
 }
 
 /*===== NEWSLETTER =====*/
+.newsletter {
+  text-align: center;
+}
+
+.newsletter__description {
+  margin-bottom: var(--mb-2);
+  font-size: var(--small-font-size);
+  color: var(--dark-color-light);
+}
+
+.newsletter__form {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+}
+
+.newsletter__input {
+  outline: none;
+  border: none;
+  border-radius: var(--br-6);
+  background-color: var(--gray-color);
+  padding: 0 1rem;
+  margin-right: 0.6rem;
+}
 
 /*===== SPONSORS =====*/
 

@@ -123,13 +123,13 @@ img {
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
-  widht: calc(100% - 3rem);
+  width: calc(100% - 3rem);
   margin-left: var(--mb-3);
   margin-right: var(--mb-3);
 }
 
 .l-header {
-  widht: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -229,7 +229,7 @@ img {
   position: relative;
   right: 0;
   bottom: 0;
-  widht: 260px;
+  width: 260px;
 }
 /*===== BUTTONS =====*/
 .button {
@@ -266,7 +266,7 @@ img {
 }
 
 .collection__img {
-  widht: 100px;
+  width: 100px;
 }
 
 .collection__title {
@@ -297,6 +297,7 @@ img {
 }
 
 .featured__product {
+  margin: 2rem;
   transition: 0.3s;
 }
 
@@ -308,6 +309,7 @@ img {
   position: relative;
   display: flex;
   justify-content: center;
+  border-radius: 2rem;
   background-color: var(--gray-color);
 }
 

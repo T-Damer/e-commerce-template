@@ -227,7 +227,7 @@ img {
 }
 
 .home__container {
-  height: calc(100vh-var(--header-height));
+  height: calc(100vh- var(--header-height));
 }
 
 .home__data {
@@ -249,12 +249,11 @@ img {
 .home__img {
   position: relative;
   left: 30%;
-  bottom: 0;
+  bottom: 0%;
   width: 260px;
 }
 /*===== BUTTONS =====*/
 .button {
-  display: inline-block;
   background-color: var(--first-color);
   color: var(--white-color);
   padding: 1rem;
@@ -529,7 +528,7 @@ img {
   }
 
   .nav {
-    heig: calc(var(--header-height) + 1rem);
+    height: calc(var(--header-height) + 1rem);
     justify-content: initial;
   }
   .nav__menu {
@@ -554,9 +553,6 @@ img {
   }
   .home__data {
     align-self: center;
-  }
-  .home_data,
-  .button {
   }
   .home__title {
     line-height: 0.8;

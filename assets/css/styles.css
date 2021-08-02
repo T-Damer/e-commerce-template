@@ -121,6 +121,11 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.section-all:hover {
+  color: var(--first-color);
+  text-decoration: underline;
+}
+
 /*===== LAYOUT =====*/
 
 .bg-grid {

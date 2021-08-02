@@ -307,8 +307,9 @@ img {
   colot: var(--dark-color-light);
 }
 
-.collection__view {
-  text-decoration: underline-dotted;
+.collection__view:hover {
+  color: var(--first-color);
+  text-decoration: underline;
 }
 
 /*===== FEATURED PRODUCTS =====*/
@@ -359,13 +360,13 @@ img {
 }
 /*===== OFFER =====*/
 .offer__bg {
-  /* background: url('/assets/img/offer.jpg') no-repeat center/cover; UNCOMMENT THIS TO USE IMAGE*/
+  background: no-repeat center/cover;
   text-align: center;
 }
 
 .offer__data {
   padding: 3.5rem 0.25rem;
-  background-color: rgba(0, 0, 0 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: var(--white-color);
 }
 

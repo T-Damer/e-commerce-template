@@ -6,6 +6,8 @@
 
 ## Demo
 
+![demo](https://user-images.githubusercontent.com/49658988/127864107-4c960ae7-17ac-4877-b383-59492febfab4.gif)
+
 ## How to launch locally?
 
 Simply `git clone https://github.com/T-Damer/e-commerce-template.git`, then `cd e-commerce-template` into folder, launch `index.html`

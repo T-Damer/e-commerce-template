@@ -146,7 +146,7 @@ img {
 
 .nav {
   height: var(--header-height);
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
 }
@@ -179,6 +179,7 @@ img {
 
 .nav__logo {
   font-weight: var(--font-bold);
+  color: var(--first-color);
   object-fit: cover;
 }
 
@@ -229,7 +230,7 @@ img {
 }
 
 .home__title {
-  algin-self: center;
+  align-self: center;
   font-size: var(--big-font-size);
   line-height: 1;
   letter-spacing: 0.5rem;
@@ -248,7 +249,7 @@ img {
 }
 /*===== BUTTONS =====*/
 .button {
-  dispay: inline-block;
+  display: inline-block;
   background-color: var(--first-color);
   color: var(--white-color);
   padding: 1rem;
@@ -510,6 +511,7 @@ img {
   body {
     margin: 0;
   }
+
   .section-all {
     margin-bottom: var(--mb-4);
   }
@@ -531,21 +533,28 @@ img {
   .nav__toggle {
     display: none;
   }
+  .nav__cart {
+    margin-top: 0.4rem;
+  }
 
   .home__container {
     height: 100vh;
   }
   .home__data {
-    padding: 0;
-    height: max-content;
     align-self: center;
+  }
+  .home_data,
+  .button {
   }
   .home__title {
     line-height: 0.8;
     letter-spacing: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
   }
   .home__img {
-    width: 370px;
+    width: 260px;
+    height: 400px;
   }
 
   .collection__container {

@@ -249,7 +249,7 @@ img {
 .home__img {
   position: relative;
   left: 30%;
-  bottom: 0%;
+  margin-top: 93px;
   width: 260px;
 }
 /*===== BUTTONS =====*/

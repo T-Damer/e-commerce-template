@@ -447,7 +447,7 @@ img {
 
 /*===== SPONSORS =====*/
 .sponsors__container {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr) !important;
   row-gap: 2rem;
   padding: 1.5rem;
 }
@@ -457,7 +457,7 @@ img {
   justify-content: center;
 }
 
-.sposnors__logo img {
+.sponsors__logo img {
   widht: 80px;
   filter: opacity(70%);
 }
@@ -563,8 +563,7 @@ img {
     margin-bottom: 0;
   }
   .home__img {
-    width: 260px;
-    height: 400px;
+    width: 370px;
   }
 
   .collection__container {
@@ -581,7 +580,7 @@ img {
   .featured__container,
   .sponsors__container,
   .footer__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr) !important;
   }
 
   .offer__data {
@@ -611,7 +610,7 @@ img {
   .home__data {
     padding-left: 7rem;
   }
-  .home__imd {
+  .home__img {
     right: 15%;
   }
 }

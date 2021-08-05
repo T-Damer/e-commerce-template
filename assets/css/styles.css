@@ -100,6 +100,21 @@ img {
   height: auto;
 }
 
+/*=== Scrollbar ===*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dark-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--first-color-alt);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--first-color);
+}
+
 /*===== CLASS CSS ===== */
 .section {
   padding: 3rem 0;

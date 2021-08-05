@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -22,7 +22,7 @@
 
 /*===== Typography =====*/
 :root {
-  --body-font: 'Open Sans', sans-serif;
+  --body-font: 'Lato', sans-serif;
   --big-font-size: 3rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;

@@ -242,7 +242,7 @@ img {
 }
 
 .home__container {
-  height: calc(100vh- var(--header-height));
+  height: calc(1vh- var(--header-height));
 }
 
 .home__data {
@@ -564,7 +564,7 @@ img {
   }
 
   .home__container {
-    height: 100vh;
+    height: 40vh;
   }
   .home__data {
     align-self: center;
